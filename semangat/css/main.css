@@ -12,8 +12,7 @@
 
 body {
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  align-items: flex-end;
   justify-content: center;
   min-height: 100vh;
   background-color: var(--dark-color);
@@ -322,8 +321,7 @@ body {
   left: -7vmin;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  flex-direction: column;
+  align-items: flex-end;
   z-index: 20;
   transform-origin: bottom center;
   transform: rotate(-48deg) rotateY(40deg);
@@ -546,8 +544,7 @@ body {
   transform: rotate(-30deg) rotateY(-20deg);
   display: flex;
   flex-direction: column;
-  align-items: center;
-  flex-direction: column;
+  align-items: flex-end;
   -webkit-animation: flower-g-long-ans 3s linear infinite;
           animation: flower-g-long-ans 3s linear infinite;
 }
