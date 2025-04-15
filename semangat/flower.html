@@ -8,104 +8,145 @@
     <link rel="icon" href="img/flowers.png" type="image/x-icon">
     <title>flowers</title>
 
-    <style>
-        .flower-message {
-            text-align: center;
-            color: #ff69b4;
-            font-size: 1.5rem;
-            margin: 20px auto;
-            animation: fadeIn 2s ease-in-out;
-            max-width: 90%;
-        }
-
-        .flower-message p {
-            margin: 0;
-        }
-
-        .flower-message a {
-            display: inline-block;
-            margin-top: 10px;
-            padding: 10px 20px;
-            background: #ff69b4;
-            color: white;
-            text-decoration: none;
-            border-radius: 10px;
-            font-size: 1rem;
-            transition: background 0.3s ease;
-        }
-
-        .flower-message a:hover {
-            background: #ff85c1;
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(-10px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        @media screen and (max-width: 600px) {
-            .flower-message {
-                font-size: 1.2rem;
-            }
-            .flower-message a {
-                font-size: 0.9rem;
-                padding: 8px 16px;
-            }
-        }
-    </style>
-
-
+    
 <style>
-    body {
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden;
-    }
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background-color: black;
+}
 
-    .flowers {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        margin: 20px auto 0 auto;
-        max-width: 100%;
-    }
-
-    .flower-message {
-        position: relative;
-        z-index: 10;
-        background: rgba(255, 255, 255, 0.1);
-        padding: 10px;
-        border-radius: 12px;
-    }
-
-    @media screen and (max-width: 574px) {
-        .flower-message {
-            font-size: 1rem;
-            padding: 8px;
-        }
-
-        .flower-message a {
-            font-size: 0.85rem;
-            padding: 6px 14px;
-        }
-    }
-</style>
-
-
-<style>
 .flowers {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    max-width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+    padding: 0 10px;
 }
+
 .flower {
-    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+.flower-message {
+    text-align: center;
+    color: #ff69b4;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 574px) {
+    .flower-message {
+        font-size: 1rem;
+    }
 }
 </style>
+
+
+
+
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.flowers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.flower {
+    display: block;
+    margin: 0 auto;
+}
+
+.flower-message {
+    text-align: center;
+    color: #ff69b4;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 574px) {
+    .flower-message {
+        font-size: 1rem;
+    }
+}
+</style>
+
+
+
+
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.flowers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.flower {
+    display: block;
+    margin: 0 auto;
+}
+
+.flower-message {
+    text-align: center;
+    color: #ff69b4;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 574px) {
+    .flower-message {
+        font-size: 1rem;
+    }
+}
+</style>
+
 
 </head>
 <body class="container">
