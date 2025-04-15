@@ -62,7 +62,6 @@ body{
     }
     .description{
         font-size: 1rem;
-        text-align: center;
     }
     
     .button a{
@@ -121,3 +120,13 @@ body{
 .greetings .line:nth-child(3) span:nth-child(4) { animation-delay: 2.8s; }
 .greetings .line:nth-child(3) span:nth-child(5) { animation-delay: 3s; }
 .greetings .line:nth-child(3) span:nth-child(6) { animation-delay: 3.2s; }
+
+@media screen and (max-width: 574px) {
+    .greetings {
+        font-size: 2rem !important;
+        gap: 2px !important;
+    }
+    .description {
+        font-size: 0.9rem !important;
+    }
+}
